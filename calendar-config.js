@@ -23,7 +23,7 @@ function calcTable(year) {
 console.log(monthLong)
 
 
-        let beforCount = 0;
+        let beforeCount = 0;
         let counter = 1;
         let startCount = false;
 
@@ -33,10 +33,10 @@ console.log(monthLong)
 
 
 
-                if (beforCount == startDayInWeek) {
+                if (beforeCount == startDayInWeek) {
                     startCount = true;
                 } else {
-                    beforCount++;
+                    beforeCount++;
                 }
 
 
@@ -53,9 +53,6 @@ console.log(monthLong)
                     arr[month][x][y] = "";
 
                 }
-
-
-
 
             }
 
